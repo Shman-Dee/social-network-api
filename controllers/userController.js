@@ -1,5 +1,5 @@
 const { isEmail } = require("validator");
-const { User, Thought } = require("../model");
+const { User, Thought } = require("../models");
 
 module.exports = {
   createUser: async (req, res) => {
