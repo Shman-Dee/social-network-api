@@ -12,7 +12,6 @@
   "dependencies": {
     "express": "^4.17.3",
     "moment": "^2.29.2",
-    "monent": "^0.0.2-security",
     "mongoose": "^6.2.10",
     "validator": "^13.7.0"
   }
