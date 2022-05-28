@@ -35,7 +35,7 @@ This project is an API for a social network that allows user to create accounts,
      
   The application is a backend for a social network application.  API routes can be tested through Postman.  Please view the walk through video to demonstrate the routes.
 
-[Screenify - User and Friends walk through](https://drive.google.com/file/d/1SJxNVp7uAe2v2wANd1BYrJM-exXTkhfv/view?usp=sharing)  
+[Screenify - User and Friends walk through](https://drive.google.com/file/d/1RYQXNQGDSPHnV-l008oOZZ9zG0YNrwUm/view?usp=sharing)  
  [Screenify - Thoughts and Reactions walk through](https://drive.google.com/file/d/1SJxNVp7uAe2v2wANd1BYrJM-exXTkhfv/view?usp=sharing)
 
   <p align="right">(<a href="#top">back to top</a>)</p>
