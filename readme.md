@@ -1,61 +1,61 @@
-# 18 NoSQL: Social Network API
 
-### Walkthrough Video: 37%
 
-* A walkthrough video that demonstrates the functionality of the social media API must be submitted, and a link to the video should be included in your README file.
+<div id="top"></div>
+    <h3 align="center">Social Network API</h3>
 
-  * The walkthrough video must show all of the technical acceptance criteria being met.
+## License
 
-  * The walkthrough video must demonstrate how to start the application’s server.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  * The walkthrough video must demonstrate GET routes for all users and all thoughts being tested in Insomnia.
+## Description
 
-  * The walkthrough video must demonstrate GET routes for a single user and a single thought being tested in Insomnia.
+This project is an API for a social network that allows user to create accounts, create a friends list, create thoughts and react to friends' thoughts. The project uses MongoDb, Mongoose, and Express.js.
 
-  * The walkthrough video must demonstrate POST, PUT, and DELETE routes for users and thoughts being tested in Insomnia.
+## Table of Contents
 
-  * Walkthrough video must demonstrate POST and DELETE routes for a user’s friend list being tested in Insomnia.
+- [License](#license)
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+- [Installation Instructions](#installation-instructions)
+- [Usage](#usage)
+- [Contributors](#contributors)
+- [Testing](#testing)
+- [Questions](#questions)
 
-  * Walkthrough video must demonstrate POST and DELETE routes for reactions to thoughts being tested in Insomnia.
+  <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Technical Acceptance Criteria: 40%
+## Installation Instructions
 
-* Satisfies all of the preceding acceptance criteria plus the following:
 
-  * Uses the [Mongoose package](https://www.npmjs.com/package/mongoose) to connect to a MongoDB database.
+  <ul><li>Cone this repo </li><li>Change into the newly created directory</li><li>From the command line run <code>npm i</code> to install all necessary packages</li><li>From the command line run <code>node server</code> or <code>nodemon server</code> to spin up the backend server</li><li>Use Postman or Insomnia to make api requests</li></ul>
+  
+  <p align="right">(<a href="#top">back to top</a>)</p>
+  
+  ## Usage
+     
+  The application is a backend for a social network application.  API routes can be tested through Postman.  Please view the walk through video to demonstrate the routes.
 
-  * Includes User and Thought models outlined in the homework instructions.
+[Screenify - User and Friends walk through](https://drive.google.com/file/d/1SJxNVp7uAe2v2wANd1BYrJM-exXTkhfv/view?usp=sharing)  
+ [Screenify - Thoughts and Reactions walk through](https://drive.google.com/file/d/1SJxNVp7uAe2v2wANd1BYrJM-exXTkhfv/view?usp=sharing)
 
-  * Includes schema settings for User and Thought models as outlined in the homework instructions.
+  <p align="right">(<a href="#top">back to top</a>)</p>
+  
+    
+  ## Contributors
+  my buddies justin and steve
 
-  * Includes Reactions as the `reaction` field's subdocument schema in the Thought model.
+  <p align="right">(<a href="#top">back to top</a>)</p>
 
-  * Uses functionality to format queried timestamps properly.
+## Testing
 
-### Repository Quality: 13%
+None
 
-* Repository has a unique name.
+  <p align="right">(<a href="#top">back to top</a>)</p>
 
-* Repository follows best practices for file structure and naming conventions.
+## Questions
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 
-* Repository contains multiple descriptive commit messages.
 
-* Repository contains a high-quality README with description and a link to a walkthrough video.
+Email: [andy@andy.com](andy@andy.com)
 
-### Bonus: +10 Points
-
-* Application deletes a user's associated thoughts when the user is deleted.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* A walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
-# social-network-api
+<p align="right">(<a href="#top">back to top</a>)</p>
